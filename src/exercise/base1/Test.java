@@ -11,6 +11,8 @@ public class Test {
     public static void main(String[] args){
 //        Solution solution=new Solution();
 //        solution.myAtoi("20000000000000000000");
-        print(Integer.parseInt("1"));
+//        print(Integer.parseInt("1"));
+        Solution2 solution=new Solution2();
+        print(solution.isMatch("abbabaaaaaaacaa","a*.*b.a.*c*b*a*"));
     }
 }
