@@ -13,6 +13,8 @@ public class Test {
 //        solution.myAtoi("20000000000000000000");
 //        print(Integer.parseInt("1"));
         Solution2 solution=new Solution2();
-        print(solution.isMatch("abbabaaaaaaacaa","a*.*b.a.*c*b*a*"));
+        print(solution.isMatch("abbabaaaaaaacaa","a*.*b.a.*c*b*a*c*"));
+       // print(solution.isMatch("caa","c*b*a*c*"));
+        //print(solution.isMatch("aa","b*a*c*"));
     }
 }
